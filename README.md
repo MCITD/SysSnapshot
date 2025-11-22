@@ -29,13 +29,13 @@
 git clone https://github.com/MCITD/SysSnapshot.git
 
 # Navigate to directory
-cd syssnapshot
+cd SysSnapshot
 
 # Make executable
-chmod +x SysSnapshot.sh
+chmod +x monitor.sh
 
 # Run
-./SysSnapshot.sh
+./monitor.sh
 ```
 
 ## 📦 Installation
@@ -76,7 +76,6 @@ Simply run the script to access the interactive menu:
 ```bash
 # Option 3 from menu
 # Enter source: /home/user/documents
-# Enter destination: /backup/documents
 ```
 
 **Verify Backup Integrity:**
@@ -131,7 +130,7 @@ EOF
 ### Generate Reports via Script
 ```bash
 # Non-interactive report generation
-echo "5" | ./monitor.sh > filesystem_report.txt
+echo "5" | ./monitor.sh > ./reports/filesystem_report.txt
 ```
 
 ## 📊 Output Examples
